@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c380af8a7508174e80ba0ce5f8d3c26, type: 3}
+  m_Name: AppSettings
+  m_EditorClassIdentifier: Assembly-CSharp::AppSettings
+  webcamWidth: 1280
+  webcamHeight: 720
+  webcamFps: 30
+  qrPreferBackCamera: 1
+  capturePreferBackCamera: 0
+  qrDecodeMaxEdge: 480
+  qrScanInterval: 0.14
+  qrExportSize: 512
+  dataFolderName: bbm
+  storeFileName: store.json
+  imagesFolderName: images
+  qrExportFileName: test-qr.png
+  maxImageEdge: 512
+  jpegQuality: 88
+  useRemoteApi: 0
+  apiBaseUrl: 
+  apiBalloonsPath: /api/balloons
+  apiUploadPath: /api/balloons/upload
+  apiAuthHeader: Authorization
+  apiAuthToken: 
+  apiTimeoutSeconds: 15
+  referenceResolution: {x: 1080, y: 1920}
+  canvasMatch: 0.5
+  targetFrameRate: 60
+  introDuration: 2.6
+  introSkipAfter: 0.6
+  balloonPrefabSize: {x: 210, y: 260}
